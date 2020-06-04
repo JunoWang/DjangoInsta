@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from django.urls import reverse 
 
 from imagekit.models import ProcessedImageField # thrid party
@@ -30,3 +31,7 @@ class InstaUser(AbstractUser):
         null = True ,
         blank = True,
     )
+=======
+
+# Create your models here.
+>>>>>>> 439bcbfa53faf26e586e7babc2a1e0b79754cf87

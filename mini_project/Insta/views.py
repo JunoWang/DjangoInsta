@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.views. generic import TemplateView, ListView, DetailView
 
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
@@ -45,3 +46,9 @@ class SignUp(CreateView):
     template_name = 'signup.html'
 
 
+=======
+from django.views. generic import TemplateView
+
+class HelloWorld(TemplateView): #继承 templateview hello world is a templateview 
+    template_name = 'test.html' # override template name 
+>>>>>>> 439bcbfa53faf26e586e7babc2a1e0b79754cf87
