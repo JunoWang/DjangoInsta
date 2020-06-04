@@ -7,11 +7,11 @@ verify_ssl = true
 
 [packages]
 django = "*"
-<<<<<<< HEAD
-django-imagekit = "*"
 pillow = "*"
-=======
->>>>>>> 439bcbfa53faf26e586e7babc2a1e0b79754cf87
+django-imagekit = "*"
+django-annoying = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
